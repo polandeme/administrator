@@ -1,17 +1,17 @@
 {
-	"name": "summerblue/administrator",
-	"description": "A database interface package for Laravel, modified!",
-	"homepage": "https://github.com/summerblue/administrator",
+	"name": "polandeme/administrator-qiniu",
+	"description": "A database interface package for Laravel use qiniu upload, modified!",
+	"homepage": "https://github.com/polandeme/administrator-qiniu",
 	"keywords": ["administrator", "admin", "database", "laravel-administrator", "laravel", "cms"],
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Original: Jan Hartigan, modified by CJ",
-			"email": "cj@estgroupe.com"
+			"name": "",
+			"email": "polandeme@gmail.com"
 		}
 	],
 	"support": {
-		"issues": "https://github.com/summerblue/administrator/issues"
+		"issues": "https://github.com/polandeme/administrator-qiniu/issues"
 	},
 	"require": {
 		"php": ">=5.4.0",

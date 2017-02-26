@@ -2,6 +2,7 @@
 
 namespace Frozennode\Administrator\Fields;
 
+use zgldh\QiniuStorage\QiniuStorage;
 use Frozennode\Administrator\Includes\Multup;
 
 class Image extends File
@@ -42,6 +43,12 @@ class Image extends File
             ->sizes($this->getOption('sizes'))
             ->set_length($this->getOption('length'))
             ->upload();
+
+        // 增加七牛上传
+        $disk = QiniuStorage::disk('qiniu');
+        //var_dump($result);
+        $content = file_get_contents($result[0]['path']);
+        $disk->put('/uploads/'. $model . '/' . $result[0]['filename'], $content);
 
         return $result[0];
     }

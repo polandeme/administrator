@@ -466,7 +466,8 @@ class AdminController extends Controller
         //get the model and the field object
         $field = $fieldFactory->findField($fieldName);
 
-        return response()->JSON($field->doUpload());
+        return response()->JSON($field->doUpload($modelName));
+        // return response()->JSON($field->doUpload());
     }
 
     /**
