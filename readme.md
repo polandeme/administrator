@@ -1,5 +1,5 @@
 ## Intro
-
+* laravel-administrator for qiniu   
 * 中文讨论请前往：https://phphub.org/topics/2301
 * 中文教程见这里：https://phphub.org/topics/2407
 
