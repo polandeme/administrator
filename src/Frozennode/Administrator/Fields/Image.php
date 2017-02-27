@@ -48,7 +48,7 @@ class Image extends File
         $disk = QiniuStorage::disk('qiniu');
         //var_dump($result);
         $content = file_get_contents($result[0]['path']);
-        $disk->put('/uploads/'. $model . '/' . $result[0]['filename'], $content);
+        $disk->put('uploads/'. $model . '/' . $result[0]['filename'], $content);
 
         return $result[0];
     }
