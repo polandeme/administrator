@@ -6,7 +6,7 @@
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "",
+			"name": "administrator-qiniu",
 			"email": "polandeme@gmail.com"
 		}
 	],
@@ -14,7 +14,7 @@
 		"issues": "https://github.com/polandeme/administrator-qiniu/issues"
 	},
 	"require": {
-		"php": ">=5.4.0",
+		"php": ">=5.4.0",  
 		"laravel/framework": "5.*",
 		"ckeditor/ckeditor": "4.*"
 	},
