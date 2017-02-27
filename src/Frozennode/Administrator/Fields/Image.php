@@ -30,7 +30,7 @@ class Image extends File
      *
      * @return array
      */
-    public function doUpload()
+    public function doUpload($model = null)
     {
         // CJ: Create a folder if it doesn't already exist
         if (!file_exists($this->getOption('location'))) {
